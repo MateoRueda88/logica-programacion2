@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(77, 76, 76);
+    color: rgb(46, 250, 152);
+    font-size: .7rem;
+    height: 20vh;
+    border-bottom: 3px solid rgb(46, 250, 152) ;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: rgb(128, 128, 128, .1);
+    padding: .5rem;
+    height: 70vh;
+}
+.cont{
+    width: 80%;
+    background-color:rgb(128, 128, 128, .9) ;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    flex-direction: column;
+    border-bottom: 3px solid rgb(46, 250, 152) ;
+}
+.entrada{
+    text-align: center;
+    color: rgb(46, 250, 152);
+    width: 70%;
+    border-left: 3px solid rgb(46, 250, 152);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textoC{
+    color: rgb(46, 250, 152);
+    padding: .4rem;
+}
+.btn-C{
+    padding: .3rem;
+    border: none;
+    border-radius: 5px;
+}
+.container-respuesta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .3rem;
+}
+.result{
+    font-size: 8pt;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: rgb(46, 250, 152);
+}
