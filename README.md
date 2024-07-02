@@ -1,0 +1,1 @@
+En este proyecto implementamos todos los conocimientos puestos en practica hasta hoy en javascript, lo que realizaremos en este proyecto es crear un coversor de temperatura diseñado especialemtne con html css y javascript
